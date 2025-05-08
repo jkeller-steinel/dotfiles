@@ -1,6 +1,6 @@
 [user]
 	name = Jonas Richard Keller
-	email = jonas.r.keller@gmail.com
+	email = jonas.keller@steinel.de
 	signingkey = key::ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAILLSohfVkxBWKq63xIqoyK8g5s6fILhvk4h5eSBtTk4W jonas.r.keller@gmail.com
 [init]
 	defaultBranch = main

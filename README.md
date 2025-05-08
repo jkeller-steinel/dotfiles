@@ -1,4 +1,4 @@
-# jonicho's dotfiles
+# jkeller-steinel's dotfiles
 
 This repository contains my personal dotfiles, managed using [GNU Stow](https://www.gnu.org/software/stow/).
 
@@ -7,7 +7,7 @@ This repository contains my personal dotfiles, managed using [GNU Stow](https://
 To install the dotfiles, simply clone this repository into `~/.dotfiles` and run `stow .` from within the repository:
 
 ```sh
-git clone https://github.com/jonicho/dotfiles.git ~/.dotfiles
+git clone https://github.com/jkeller-steinel/dotfiles.git ~/.dotfiles
 cd ~/.dotfiles
 stow .
 ```

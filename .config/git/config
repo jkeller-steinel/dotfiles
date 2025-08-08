@@ -10,6 +10,8 @@
 	renames = copies
 [core]
 	editor = vim
+[url "ssh://git@steinel.gitlabhosting.com"]
+	insteadOf = https://steinel.gitlabhosting.com
 [alias]
 	tree = log --graph --pretty=\"%C(yellow)%h%Creset -%C(auto)%d%Creset %s %Cgreen(%cr) %C(bold blue)%an <%ae>%Creset\" --all
 [push]

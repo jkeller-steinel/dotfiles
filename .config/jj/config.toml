@@ -12,5 +12,8 @@ diff-editor = ":builtin"
 [revsets]
 bookmark-advance-to = "@-"
 
+[revset-aliases]
+"immutable_heads()" = "builtin_immutable_heads() | remote_bookmarks(main|dev)"
+
 [templates]
 draft_commit_description = "builtin_draft_commit_description_with_diff"

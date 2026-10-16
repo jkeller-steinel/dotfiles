@@ -19,7 +19,7 @@ draft_commit_description = "builtin_draft_commit_description_with_diff"
 [signing]
 behavior = "own"
 backend = "ssh"
-key = "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAILLSohfVkxBWKq63xIqoyK8g5s6fILhvk4h5eSBtTk4W jonas.r.keller@gmail.com"
+key = "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOR7mllTjC5CHTwReRUGJ5NSwlcdTGltAju8ByZEDyLV jonas.keller@steinel.de"
 
 [signing.backends.ssh]
 allowed-signers = "~/.ssh/allowed_signers"

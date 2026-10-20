@@ -8,9 +8,18 @@ email = "jonas.r.keller@gmail.com"
 editor = "vim"
 default-command = "log"
 diff-editor = ":builtin"
+show-cryptographic-signatures = true
 
 [revsets]
 bookmark-advance-to = "@-"
 
 [templates]
 draft_commit_description = "builtin_draft_commit_description_with_diff"
+
+[signing]
+behavior = "own"
+backend = "ssh"
+key = "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAILLSohfVkxBWKq63xIqoyK8g5s6fILhvk4h5eSBtTk4W jonas.r.keller@gmail.com"
+
+[signing.backends.ssh]
+allowed-signers = "~/.ssh/allowed_signers"

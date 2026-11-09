@@ -10,6 +10,10 @@ default-command = "log"
 diff-editor = ":builtin"
 show-cryptographic-signatures = true
 
+[git]
+# Prevent pushing work in progress, anything explicitly labeled "private" and megamerges
+private-commits = "subject(glob-i:'wip:*') | subject(glob-i:'private:*') | subject(glob-i:'megamerge*')"
+
 [revsets]
 bookmark-advance-to = "@-"
 

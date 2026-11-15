@@ -10,6 +10,9 @@ default-command = "log"
 diff-editor = ":builtin"
 show-cryptographic-signatures = true
 
+[git]
+private-commits = "subject(glob-i:'wip:*') | subject(glob-i:'private:*') | subject(glob-i:'megamerge*')"
+
 [revsets]
 bookmark-advance-to = "@-"
 
